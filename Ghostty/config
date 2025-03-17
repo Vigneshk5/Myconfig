@@ -1,0 +1,102 @@
+# The syntax is "key = value". The whitespace around the
+
+# equals doesn't matter.
+
+background = #0D1116
+foreground = #ebfafa
+
+
+# black
+palette = 0=#0D1116
+palette = 8=#5fa9f4
+# red
+palette = 1=#f16c75
+palette = 9=#f16c75
+# green
+palette = 2=#37f499
+palette = 10=#37f499
+# yellow
+palette = 3=#19dfcf
+palette = 11=#19dfcf
+# blue
+palette = 4=#987afb
+palette = 12=#987afb
+# purple
+palette = 5=#949ae5
+palette = 13=#949ae5
+# aqua
+palette = 6=#04d1f9
+palette = 14=#04d1f9
+# white
+palette = 7=#ebfafa
+palette = 15=#ebfafa
+
+cursor-color = #F712FF
+
+
+theme = ChallengerDeep
+font-size = 18
+font-family = "MesloLGS Nerd Font Mono"
+
+window-padding-x = 4,2
+window-padding-y = 6,0
+
+background-opacity = 0.7
+background-blur-radius = 20
+
+# macos-titlebar-style = hidden
+
+# Comments start with a `#` and are only valid on their own line.
+
+# Blank lines are ignored!
+
+keybind = ctrl+z=close_surface
+keybind = ctrl+d=new_split:right
+keybind = cmd+s=toggle_quick_terminal
+keybind = super+i=inspector:toggle
+keybind = super+r=reload_config
+
+# keybindings
+keybind = cmd+s>r=reload_config
+keybind = cmd+s>x=close_surface
+
+keybind = cmd+s>n=new_window
+
+# tabs 
+keybind = cmd+s>c=new_tab
+keybind = cmd+s>shift+l=next_tab
+keybind = cmd+s>shift+h=previous_tab
+keybind = cmd+s>comma=move_tab:-1
+keybind = cmd+s>period=move_tab:1
+
+# quick tab switch
+keybind = cmd+s>1=goto_tab:1
+keybind = cmd+s>2=goto_tab:2
+keybind = cmd+s>3=goto_tab:3
+keybind = cmd+s>4=goto_tab:4
+keybind = cmd+s>5=goto_tab:5
+keybind = cmd+s>6=goto_tab:6
+keybind = cmd+s>7=goto_tab:7
+keybind = cmd+s>8=goto_tab:8
+keybind = cmd+s>9=goto_tab:9
+
+# split
+keybind = cmd+s>\=new_split:right
+keybind = cmd+s>-=new_split:down
+
+keybind = cmd+s>j=goto_split:bottom
+keybind = cmd+s>k=goto_split:top
+keybind = cmd+s>h=goto_split:left
+keybind = cmd+s>l=goto_split:right
+
+keybind = cmd+s>z=toggle_split_zoom
+
+keybind = cmd+s>e=equalize_splits
+
+# other
+copy-on-select = clipboard
+
+
+# Empty values reset the configuration to the default value
+
+
