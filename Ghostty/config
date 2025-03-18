@@ -34,12 +34,15 @@ palette = 15=#ebfafa
 cursor-color = #F712FF
 
 
-theme = ChallengerDeep
+theme = ayu
 font-size = 18
 font-family = "MesloLGS Nerd Font Mono"
 
 window-padding-x = 4,2
 window-padding-y = 6,0
+window-save-state = always
+window-width=90
+window-height=30
 
 background-opacity = 0.7
 background-blur-radius = 20
